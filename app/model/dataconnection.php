@@ -2,8 +2,7 @@
 
 function getDatabaseConnection(): PDO
 {
-    // Lien vers la base de données
-    $dsn = 'sqlite:C:\wamp\www\site-profane-sae\app\database\;
+    $dsn = 'sqlite:C:\wamp\www\site-profane-sae\app\database\database.sqlite';
 
     try {
         $databaseConnection = new PDO($dsn);
