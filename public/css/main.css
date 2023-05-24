@@ -4,7 +4,7 @@
 }
 
 body {
-background-image: url(../images/fond_profane.png);
+background-image: url(../images/fond_profane2.png);
 background-size: cover;
 background-repeat: no-repeat;
 /* background-color: rgb(0, 0, 0); */
@@ -39,6 +39,11 @@ li {
 }
 
 /* Contenu principal */
+
+#logo {
+  position: relative;
+  left: 20%;
+}
 
 h1 {
     font-family: "Danger-Night";
