@@ -40,9 +40,10 @@ li {
 
 /* Contenu principal */
 
-#logo {
+img {
   position: relative;
-  left: 20%;
+  left: 45%;
+  margin: -85px;
 }
 
 h1 {
@@ -82,7 +83,7 @@ p {
 form {
     /* Uniquement centrer le formulaire sur la page */
     margin: 5em auto;
-    width: 400px;
+    width: 460px;
     /* Encadré pour voir les limites du formulaire */
     padding: 1em;
     border: 5px solid #CCC;
@@ -97,7 +98,7 @@ form {
   label {
     /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
     display: inline-block;
-    width: 90px;
+    width: 125px;
     text-align: right;
   }
   
@@ -143,7 +144,12 @@ form {
   /* Footer */
 
   footer {
-    background: rgba(239, 10, 6, 0.497);
+    background: rgba(255, 255, 255, 1);
+  }
+
+  .footer_text{
+    color: #000000;
+    font-size: 0.8em;
   }
 
   .ul-footer {
@@ -151,6 +157,33 @@ form {
     margin: 1em;
   }
 
-  footer h3 {
-    margin: 1em;
+
+  .footer_div{
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    justify-content: space-between;
+    position: relative;
+    font-size: 1em;
+  }
+
+  #reseaux{
+    margin: 3%;
+    margin-left: 15%;
+    text-decoration: none;  
+  }
+
+  footer div a{
+    text-decoration: none;
+    color: #000000;
+  }
+
+  #mentions{
+    margin: 3%;
+    margin-left: 8%;
+  }
+
+  #avertissement{
+    margin: 3%;
+    margin-right: 10%;
   }

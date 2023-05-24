@@ -32,11 +32,11 @@ try {
         'name' => $_POST['name'],
         'descr' => $_POST['descr'],
     ];
-    addNewTalent($name, $description, $databaseConnection);
+    // Fonction pour ajouter client et bière à base de données
     $msg = "L'insertion du nouveau talent a réussi";
 } catch (PDOException $e) {
     $msg = "Il y a eu un problème avec l'insertion du nouveau talent"
-    . $e->getMessage(); // Que en phase de développement 
+    . $e->getMessage();
 }
 
 $_SESSION['message'] = $msg;
