@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-image: url(../images/fond_profane2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: "Danger-Night";
+    src: url(../font/Danger\ Night\ -\ Personal\ Use.ttf) format("truetype");
+
+    font-family: "Thunder Kingdom";
+    src: url(../font/Thunder\ Kingdom.ttf) format("truetype");
+    
+    font-family: "Bazelle";
+    src: url(../font/Bazelle.ttf) format("truetype");
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 120px;
+}
+
+.form-group button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #555;
+}

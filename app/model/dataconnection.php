@@ -2,8 +2,7 @@
 
 function getDatabaseConnection(): PDO
 {
-    // Lien vers la base de données
-    $dsn = 'sqlite:C:\wamp\www\site-profane-sae\app\database\;
+    $dsn = 'mysql:dbname=profane;host=' . DB_HOST . ';charset=utf8';
 
     try {
         $databaseConnection = new PDO($dsn);
