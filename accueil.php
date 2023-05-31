@@ -4,11 +4,11 @@ require_once 'utils.php';
 require_once 'app/model/dataconnection.php';
 require_once 'config.php';
 
-$page_title = 'Profane | Accueil';
-$doccss_ref = 'public/css/accueil.css';
+$page_title = "Accueil | Profane";
+$css = "accueil.css";
 
 ob_start();
-include 'app/view/accueil.view.php';
+include 'view/accueil.view.php';
 $content = ob_get_clean();
 
 include 'view/common/layout.php';

@@ -1,26 +1,26 @@
-     <head>
+     <!-- <head>
         <meta charset="UTF-8">
         <title>Accueil | Profane</title>
-        <link rel="stylesheet" type="text/css" href=<?= $docss_ref?> />
-    </head> 
+        <link rel="stylesheet" type="text/css" href="public/css/accueil.css" />
+    </head>  -->
 
     <!-- Auteur: Kilian Theresin -->
 
-    <body>
+    <!-- <body> -->
 
-        <img id="logo" src="logo.png">
+        <!-- <img id="logo" src="public/images/logo.png"> -->
         
-        <header>
+        <!-- <header>
             <nav class="menu">
                 <div id="accueil"> <a href=""><img id="image" src=""></a> </div>
                 <ul>
                     <li id="mixtures"><a href="../beer.php"> Nos mixtures</a></li>
                     <li id="histoire"><a href="">Histoire</a></li>
-                    <li id="commandes"><a href="../formulaire.php">  Commandes</a></li>
+                    <li id="commandes"><a href="../formulaire.php">Commandes</a></li>
                     <li id="contacts"><a href="../contact.php">Contact</a></li>
                 </ul>
             </nav>
-        </header>
+        </header> -->
          
             <section class="presentation">
                 <h3>Profane. Une marque de bière qui s’apprête a révolutionner le marché enclin à la surconsommation. 
@@ -29,16 +29,16 @@
             </section>
             
             <section class="bouteille">
-                <a href=""><img width="700" height="700" src="biere_mockup_COLLECTIVE_SITE.png"></a> 
+                <a href="../beer.php"><img width="700" height="700" src="public/images/anarchie_conforme.png"></a> 
              </section>
             
             <section class="animation">
                 
-                    <iframe width="1120" height="630" id="animation" src="Profane.mp4" title="YouTube video player" 
+                    <iframe width="1120" height="630" id="animation" src="public/video/Profane.mp4" title="YouTube video player" 
                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
             </section>
-         <footer>
+         <!-- <footer>
             <div class="footer_div">
                <ul class="ul-footer" id="reseaux">
                    <li class="footer_text"><strong>Nos réseaux</strong></li>
@@ -64,8 +64,8 @@
                    <br>
                    <br>© Tous droits réservés Profane.fr</p>
            </div>
-       </footer>
+       </footer> -->
 
-     </body>
+     <!-- </body> -->
 
 

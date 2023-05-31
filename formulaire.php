@@ -5,7 +5,7 @@ require_once 'app/model/dataconnection.php';
 require_once 'config.php';
 
 $page_title = 'Profane | Formulaire';
-$doccss_ref = 'public/css/formulaire.css';
+$css = 'formulaire.css';
 
 ob_start();
 include 'view/formulaire.view.php';

@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="../public/css/main.css">
-    </head>
-
-    <body>
-        <footer>
             <footer>
                 <div class="footer_div">
                    <ul class="ul-footer" id="reseaux">
@@ -34,5 +25,5 @@
                        <br>© Tous droits réservés Profane.fr</p>
                </div>
            </footer>
-        </footer>
     </body>
+</html>

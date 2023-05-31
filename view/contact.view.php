@@ -5,7 +5,7 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href=<?= $docss_ref?> />
-        <title>Contact PROFANE</title>
+        <title>Contact | Profane</title>
 
     <body>
         <header>
