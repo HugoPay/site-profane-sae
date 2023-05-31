@@ -11,16 +11,16 @@
 
     <body>
     
-    <img id="logo" src="public/images/logo.png">
+    <a href="accueil.php"><img id="logo" src="public/images/logo.png"></a>
 
         <header>
             <nav class="menu">
-                <div id="accueil"> <a href=""><img id="image" src=""></a> </div>
+                <!-- <div id="accueil"> <a href=""><img id="image" src=""></a> </div> -->
                 <ul>
-                    <li id="mixtures"><a href="">Nos mixtures</a></li>
+                    <li id="mixtures"><a href="beers.php">Nos mixtures</a></li>
                     <li id="histoire"><a href="">Histoire</a></li>
-                    <li id="commandes"><a href="">Commandes</a></li>
-                    <li id="contacts"><a href="">Contact</a></li>
+                    <li id="commandes"><a href="formulaire.php">Commandes</a></li>
+                    <li id="contacts"><a href="contact.php">Contact</a></li>
                 </ul>
             </nav>
         </header>

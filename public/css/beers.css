@@ -4,7 +4,7 @@
 }
 
 body {
-background-image: url(fond_profane.png);
+background-image: url(../images/fond_profane.png);
 background-size: cover;
 background-repeat: no-repeat;
 /* background-color: rgb(0, 0, 0); */
@@ -23,6 +23,12 @@ background-repeat: no-repeat;
     src: url(../profane/polices/Bazelle.ttf) format("truetype");
 }
 
+#logo {
+  position: relative;
+  left: 45%;
+  margin: -85px;
+}
+
 /* Barre de navigation */
 
 nav {
@@ -36,6 +42,7 @@ ul {
 
 li {
   font-size: 20px;
+  z-index: 1;
 }
 
 .menu:focus{
@@ -70,6 +77,7 @@ a {
 
 a:hover {
     text-decoration: underline;
+    color:#700000;
 }
 
 p, li, h1, h2, h3, header, label, a {

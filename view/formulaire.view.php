@@ -1,17 +1,5 @@
-<!DOCTYPE html>
-<html lang="fr">    
-    <head>
-        <meta charset="UTF-8">
-        <title>Bières | Profane</title>
-        <link rel="stylesheet" type="text/css" href="../public/css/formulaire.css">
-    </head>
-
     <!-- Auteur: Payeux Hugo -->
-    <body>
-        <!-- Logo -->
-        <img src="../public/images/logo.png" alt="Logo de Profane">
 
-        <!-- Formulaire de contact -->
         <form action="" method="">
             <div>
                 <label for="nom">Nom: </label>
@@ -41,5 +29,3 @@
                 <button type="submit">Confirmer</button>
             </div>
         </form>    
-    </body>
-</html>

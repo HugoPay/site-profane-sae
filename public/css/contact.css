@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 20px;
-    background-image: url(../images/fond_profane2.png);
+    background-image: url(../images/fond_profane.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -17,9 +17,16 @@ body {
     src: url(../font/Bazelle.ttf) format("truetype");
 }
 
+#logo {
+    position: relative;
+    left: 45%;
+    margin: -85px;
+}
+
 h1 {
-    color: #333;
-    font-size: 24px;
+    font-family: "Thunder Kingdom";
+    text-align: center;
+    font-size: 3.5em;
 }
 
 .contact-form {
@@ -61,4 +68,126 @@ h1 {
 
 .form-group button:hover {
     background-color: #555;
+}
+
+/* Barre de navigation */
+
+nav {
+    text-align: center;
+}
+
+ul {
+    display: inline-flex;
+    text-decoration: none;
+}
+
+li {
+  font-size: 20px;
+  z-index: 1;
+}
+
+/* Contenu principal */
+
+ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+li, h2, h3 {
+    font-family: "Thunder Kingdom";
+}
+
+a {
+    text-decoration: none;
+    margin: 1em;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:#700000
+}
+
+p, li, h1, h2, h3, header, label, a {
+    color: white;
+}
+
+p {
+  font-family: "Thunder Kingdom";
+}
+
+
+  /* Footer */
+
+  footer {
+    background: rgba(255, 255, 255, 1);
+  }
+
+  .footer_text{
+    color: #000000;
+    font-size: 0.8em;
+  }
+
+  .ul-footer {
+    display: inline-block;
+    margin: 1em;
+  }
+
+
+  .footer_div{
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    justify-content: space-between;
+    position: relative;
+    font-size: 1em;
+  }
+
+  #reseaux{
+    margin: 3%;
+    margin-left: 15%;
+    text-decoration: none;  
+  }
+
+  footer div a{
+    text-decoration: none;
+    color: #000000;
+  }
+
+  #mentions{
+    margin: 3%;
+    margin-left: 8%;
+  }
+
+  #avertissement{
+    margin: 3%;
+    margin-right: 10%;
+  }
+
+/* contenu*/
+
+  .presentation h3 {
+    margin : 4% 10% 1% 10%;
+    text-align: center;
+    font-family: "Thunder Kingdom";
+    font-size: 25px;
+  }
+
+   .animation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+  }
+
+#animation:hover {
+  margin-top: 2%;
+  box-shadow: 9px  9px 18px #d1d1d1,
+    -9px -9px 18px #ffffff;
+    transition-duration: 0.5s;
+}
+  
+.bouteille {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
