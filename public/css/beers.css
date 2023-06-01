@@ -76,12 +76,11 @@ margin:3%;
 
 li, h2, h3, p {
   font-family: "Thunder Kingdom";
-  margin-left: 3%;
 }
 
 a {
   text-decoration: none;
-  border: 20px  
+  margin: 1em
 }
 
 a:hover {

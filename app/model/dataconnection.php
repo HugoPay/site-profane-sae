@@ -1,8 +1,10 @@
 <?php
 
+require 'config.php';
+
 function getDatabaseConnection(): PDO
 {
-    $dsn = 'mysql:dbname=' . DB_NAME . 'host=' . DB_HOST . ';charset=utf8';
+    $dsn = 'mysql:dbname=' . DB_NAME . ';host=' . DB_HOST . ';user=' . DB_USER . ';password=' . DB_PASSWORD . ';charset=utf8';
 
     try {
         $databaseConnection = new PDO($dsn);

@@ -2,8 +2,8 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <!-- <link rel="stylesheet" href="public/css/accueil.css"> -->
         <?php if (isset($css)) : ?>
+            <link rel="icon" href="public/images/logo-onglet.png">
             <link rel="stylesheet" href="public/css/<?= $css ?>">
         <?php endif ?>
         <title><?= $page_title ?></title>

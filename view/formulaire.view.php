@@ -1,6 +1,6 @@
     <!-- Auteur: Payeux Hugo -->
 
-        <form action="" method="">
+        <form action="add-commande.php  " method="post">
             <div>
                 <label for="nom">Nom: </label>
                 <input type="text" name="nom" id="nom">
@@ -12,10 +12,6 @@
             <div>
                 <label for="adresse">Adresse: </label>
                 <input type="text" name="adresse" id="adresse">
-            </div>
-            <div>
-                <label for="ville">Ville: </label>
-                <input type="text" name="ville" id="ville">
             </div>
             <div>
                 <label for="mail">Adresse mail: </label>

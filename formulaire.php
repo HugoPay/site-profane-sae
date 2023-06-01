@@ -4,7 +4,7 @@ require_once 'utils.php';
 require_once 'app/model/dataconnection.php';
 require_once 'config.php';
 
-$page_title = 'Commandes | Profan';
+$page_title = 'Commandes | Profane';
 $css = 'formulaire.css';
 
 ob_start();

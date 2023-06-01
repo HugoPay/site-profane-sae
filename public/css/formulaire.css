@@ -13,14 +13,14 @@ background-repeat: no-repeat;
 }
 
 @font-face {
-    font-family: "Danger-Night";
-    src: url(../font/Danger\ Night\ -\ Personal\ Use.ttf) format("truetype");
+    font-family: "Danger Night";
+    src: url(../fonts/danger-night.ttf) format("truetype");
 
     font-family: "Thunder Kingdom";
-    src: url(../font/Thunder\ Kingdom.ttf) format("truetype");
+    src: url(../fonts/thunder-kingdom.ttf) format("truetype");
     
     font-family: "Bazelle";
-    src: url(../font/Bazelle.ttf) format("truetype");
+    src: url(../fonts/bazelle.ttf) format("truetype");
 }
 
 /* Barre de navigation */
@@ -48,7 +48,7 @@ img {
 }
 
 h1 {
-    font-family: "Danger-Night";
+    font-family: "Danger Night";
     text-align: center;
     font-size: 5em;
 }
@@ -100,7 +100,7 @@ form {
   }
   
   input, textarea {
-    font-family: "Thunder Kingdom";
+    font-family: "Bazelle";
     width: 300px;
     box-sizing: border-box;
   
