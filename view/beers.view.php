@@ -13,7 +13,7 @@
                             inconnu que sa provenance.
                             <br>
                             <br>
-                            <a href="formulaire.html" class="commander">Commander</a>
+                            <a href="formulaire.php" class="commander">Commander</a>
                         </p>
                     </div>
                 </div>
@@ -29,7 +29,7 @@
                             vos plaisirs les plus intimes.
                             <br>
                             <br>
-                            <a href="formulaire.html" class="commander">Commander</a>
+                            <a href="formulaire.php" class="commander">Commander</a>
                         </p>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
                             journée. Avec son jus de groseille, cette bière est destinée aux amateurs de brevage acides.
                             <br>
                             <br>
-                            <a href="formulaire.html" class="commander">Commander</a>
+                            <a href="formulaire.php" class="commander">Commander</a>
                         </p>
                     </div>
                 </div>
@@ -60,7 +60,7 @@
                             calme pour autant.
                             <br>
                             <br>
-                            <a href="formulaire.html" class="commander">Commander</a>
+                            <a href="formulaire.php" class="commander">Commander</a>
                         </p>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                             Discorde harmonieuse propose une vision plus festive des bières de Profane.
                             <br>
                             <br>
-                            <a href="formulaire.html" class="commander">Commander</a>
+                            <a href="formulaire.php" class="commander">Commander</a>
                         </p>
                     </div>
                 </div>

@@ -8,19 +8,19 @@ background-image: url(../images/fond_profane.png);
 background-size: cover;
 background-repeat: no-repeat;
 /* background-color: rgb(0, 0, 0); */
+}
 
 /* Initialisation des polices */
-}
 
 @font-face {
     /* font-family: "Danger-Night";
     src: url(../font/Danger\ Night\ -\ Personal\ Use.ttf) format("truetype"); */
 
     font-family: "Thunder Kingdom";
-    src: url('thunder_kingdom Thunder Kingdom.ttf') format("truetype");
+    src: url('../fonts/thunder-kingdom.ttf') format("truetype");
     
     font-family: "Bazelle";
-    src: url('../font/Bazelle.ttf') format("truetype");
+    src: url('../font/bazelle.ttf') format("truetype");
 }
 
 #logo {

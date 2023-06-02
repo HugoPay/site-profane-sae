@@ -11,7 +11,7 @@
 
     <body>
     
-    <a href="accueil.php"><img id="logo" src="public/images/logo.png"></a>
+    <a href="index.php"><img id="logo" src="public/images/logo.png"></a>
 
         <header>
             <nav class="menu">

@@ -13,15 +13,16 @@ background-repeat: no-repeat;
 }
 
 @font-face {
-    font-family: "Danger Night";
-    src: url(../fonts/danger-night.ttf) format("truetype");
+  /* font-family: "Danger-Night";
+  src: url(../font/Danger\ Night\ -\ Personal\ Use.ttf) format("truetype"); */
 
-    font-family: "Thunder Kingdom";
-    src: url(../fonts/thunder-kingdom.ttf) format("truetype");
-    
-    font-family: "Bazelle";
-    src: url(../fonts/bazelle.ttf) format("truetype");
+  font-family: "Thunder Kingdom";
+  src: url('../fonts/thunder-kingdom.ttf') format("truetype");
+  
+  font-family: "Bazelle";
+  src: url('../font/bazelle.ttf') format("truetype");
 }
+
 
 /* Barre de navigation */
 
