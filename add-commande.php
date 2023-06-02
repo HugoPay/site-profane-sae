@@ -29,7 +29,7 @@ $tel = $_POST['tel'];
 
 $databaseConnection = getDatabaseConnection();
 
-try {
+// try {
     $commande = [
         'nom' => $_POST['nom'],
         'prenom' => $_POST['prenom'],
@@ -41,10 +41,9 @@ try {
     // Fonction pour ajouter client et bière à base de données
     addCommande($commande, $databaseConnection);
     $msg = "Votre commande a bien été prise en compte";
-} catch (PDOException $e) {
-    $msg = "Il y a eu un problème lors de votre commande"
-    . $e->getMessage();
-}
+// } catch (PDOException $e) {
+    $msg = "Il y a eu un problème lors de votre commande";
+    // . $e->getMessage();
 
 $_SESSION['message'] = $msg;
 
