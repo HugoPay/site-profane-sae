@@ -1,0 +1,3 @@
+SetEnv PHP_VALUE "display_errors = Off";
+
+Options -Indexes;

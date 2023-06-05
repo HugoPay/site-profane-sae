@@ -45,6 +45,7 @@ $databaseConnection = getDatabaseConnection();
     $msg = "Il y a eu un problème lors de votre commande";
     // . $e->getMessage();
 
+
 $_SESSION['message'] = $msg;
 
 header('location:' . URL . 'formulaire.php');

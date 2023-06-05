@@ -18,7 +18,7 @@
                 <!-- <div id="accueil"> <a href=""><img id="image" src=""></a> </div> -->
                 <ul>
                     <li id="mixtures"><a href="beers.php">Nos mixtures</a></li>
-                    <!-- <li id="histoire"><a href="">Histoire</a></li> -->
+                    <li id="histoire"><a href="gb.php">Fabrication</a></li>
                     <li id="commandes"><a href="formulaire.php">Commandes</a></li>
                     <li id="contacts"><a href="contact.php">Contact</a></li>
                 </ul>
